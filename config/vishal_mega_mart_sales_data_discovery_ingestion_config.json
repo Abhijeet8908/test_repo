@@ -1,0 +1,11 @@
+[
+    {
+        "file_format": "csv",
+        "schedule": "None",
+        "header": true,
+        "load_type": "Batch",
+        "table_name": "sales",
+        "gcs_bucket_path": "gs://demo-buckett/input/sales.csv",
+        "dag_id": "vishal_mega_mart_sales_data_discovery_ingestion"
+    }
+]
