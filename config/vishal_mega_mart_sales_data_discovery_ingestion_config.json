@@ -1,0 +1,17 @@
+[
+    {
+        "schedule": "0 0 * * *",
+        "tags": [
+            "sales",
+            "discovery",
+            "CSV"
+        ],
+        "dataform_tags": [
+            "sales",
+            "discovery"
+        ],
+        "gcs_bucket_path": "gs://demo-buckett/input/sales.csv",
+        "is_header": true,
+        "table_name": "sales"
+    }
+]
